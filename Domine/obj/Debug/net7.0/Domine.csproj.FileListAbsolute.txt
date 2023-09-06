@@ -1,0 +1,12 @@
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\bin\Debug\net7.0\Domine.deps.json
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\bin\Debug\net7.0\Domine.dll
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\bin\Debug\net7.0\Domine.pdb
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\Domine.csproj.AssemblyReference.cache
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\Domine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\Domine.AssemblyInfoInputs.cache
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\Domine.AssemblyInfo.cs
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\Domine.csproj.CoreCompileInputs.cache
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\Domine.dll
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\refint\Domine.dll
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\Domine.pdb
+C:\Users\APT01-61\Documents\ProjectTokens\Domine\obj\Debug\net7.0\ref\Domine.dll
