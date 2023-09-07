@@ -1,3 +1,4 @@
+using API.Extensions;
 using Domine.Data;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
@@ -10,7 +11,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddJwt(builder.Configuration);
 
 
 
@@ -28,6 +29,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

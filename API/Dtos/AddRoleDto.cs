@@ -15,4 +15,5 @@ namespace API.Dtos
         [Required]
         public string Password { get; set;}
     }
+    
 }

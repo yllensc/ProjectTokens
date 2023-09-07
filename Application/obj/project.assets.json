@@ -5167,11 +5167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
+      "projectUniqueName": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
+      "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\APT01-61\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\obj\\",
+      "outputPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\APT01-61\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5189,8 +5189,8 @@
             "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
               "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj"
             },
-            "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj"
+            "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj": {
+              "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj"
             }
           }
         }

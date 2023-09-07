@@ -17,6 +17,7 @@ namespace Application.Repository;
 
     public virtual void Add(T entity)
     {
+        
         _context.Set<T>().Add(entity);
     }
 
