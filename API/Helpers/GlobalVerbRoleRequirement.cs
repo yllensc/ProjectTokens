@@ -13,7 +13,7 @@ namespace API.Helpers
             if(string.Equals("Administrator", role, StringComparison.OrdinalIgnoreCase)) return true;
             if(string.Equals("Manager", role, StringComparison.OrdinalIgnoreCase)) return true;
             //GET
-            if(string.Equals("Employee", role, StringComparison.OrdinalIgnoreCase) && string.Equals("GET", verb, StringComparison.OrdinalIgnoreCase)) return true;
+            //if(string.Equals("Employee", role, StringComparison.OrdinalIgnoreCase) && string.Equals("POST", verb, StringComparison.OrdinalIgnoreCase)) return true;
             if(string.Equals("Camper", role, StringComparison.OrdinalIgnoreCase) && string.Equals("GET", verb, StringComparison.OrdinalIgnoreCase)) return true;
             return false;
 

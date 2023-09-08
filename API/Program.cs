@@ -1,5 +1,8 @@
+using System.Reflection;
 using API.Extensions;
+using API.Helpers;
 using Domine.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
@@ -13,9 +16,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddJwt(builder.Configuration);
 builder.Services.AddApplicationServices();
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 
-
-
+//Authorization
+builder.Services.AddAuthorization(opts =>{
+    opts.DefaultPolicy = new AuthorizationPolicyBuilder()
+        .RequireAuthenticatedUser()
+        .AddRequirements(new GlobalVerbRoleRequirement())
+        .Build();
+});
 
 //Comunicación
 builder.Services.AddDbContext<ProjectTokensDbContext>(options =>{
@@ -34,7 +43,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 
-//app.UseAuthorization();
+app.UseAuthorization();
 
 app.MapControllers();
 

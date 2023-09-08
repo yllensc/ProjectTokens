@@ -5162,37 +5162,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\APT01-61\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Application\\obj\\",
+      "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\APT01-61\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\APT01-61\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
-              "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj"
+            "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
+              "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj"
             },
-            "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\Persistence.csproj": {
-              "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\Persistence.csproj"
+            "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -5228,7 +5226,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

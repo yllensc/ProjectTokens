@@ -23,7 +23,7 @@ namespace API.Helpers
             _unitOfWork = unitOfWork;
         }
 
-        public async dynamic validToken(ClaimsIdentity identity){
+        /* public dynamic validToken(ClaimsIdentity identity){
             try{
                     if(identity.Claims.Count() == 0){
                         return new {
@@ -33,11 +33,31 @@ namespace API.Helpers
                         };
                     }
                     var id = identity.Claims.FirstOrDefault(i => i.Type == "uid").Value;
-                    var user = await _unitOfWork.Users.GetSomeUserLogic(id);
+                    var user =  _unitOfWork.Users.GetSomeUserLogic(id);
+                    if(user !=null){
+                        return new {
+                            success = true,
+                            message = "token válido, estás autorizado",
+                            result = user
+                        };
+                    }
+                    else{
+                         return new {
+                            success = false,
+                            message = "Usuario no encontrado",
+                            result = ""
+                        }; 
+                    }
             }
             catch{
+                
+                return new {
+                            success = false,
+                            message = "token no válido, error inesperado jeje",
+                            result = ""
+                        };
 
             }
-        }
+        } */
     }
 }

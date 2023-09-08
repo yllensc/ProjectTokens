@@ -2,6 +2,7 @@
 using Domine.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Persistence.Data.Migrations
 {
     [DbContext(typeof(ProjectTokensDbContext))]
-    partial class ProjectTokensDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230908210446_migrationWithClients")]
+    partial class migrationWithClients
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
