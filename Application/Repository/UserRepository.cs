@@ -19,4 +19,13 @@ namespace Application.Repository;
                             .Include(u=>u.Roles)
                             .FirstOrDefaultAsync(u=>u.UserName.ToLower()==username.ToLower());
     }
+
+    public async Task<User> GetSomeUserLogic(string id)
+    {
+        var idInt = Int32.Parse(id);
+        return await _context.Users
+                            .FirstOrDefaultAsync(u=>u.Id==idInt);
+    }
+
+    
 }

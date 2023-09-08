@@ -6,9 +6,8 @@ using Domine.Entities;
 
 namespace Domine.Interfaces
 {
-    public interface IUser : IGeneric<User>
+    public interface IClient: IGeneric<Client>
     {
-        Task<User>GetSomeUserLogic(string id);
-        Task<User> GetUserName(string userName);
+        
     }
 }

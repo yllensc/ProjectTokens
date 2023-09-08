@@ -8,8 +8,8 @@ namespace Domine.Interfaces
     public interface IUnitOfWork
     {
         IUser Users { get; }
-
         IRol GetRoles();
+        IClient Clients {get; }
         Task<int> SaveAsync();
     }
 }

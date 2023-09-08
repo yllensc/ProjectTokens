@@ -12,6 +12,7 @@ namespace Application.UnitOfWork;
         private readonly ProjectTokensDbContext context ;
         private RolRepository _roles;
         private UserRepository _users;
+        private ClientRepository _clients;
 
         public UnitOfWork(ProjectTokensDbContext _context)
         {
@@ -22,6 +23,13 @@ namespace Application.UnitOfWork;
             get{
                 _users ??= new UserRepository(this.context);
                 return _users;
+            }
+        }
+
+    public IClient Clients {
+            get{
+                _clients ??= new ClientRepository(this.context);
+                return _clients;
             }
         }
 
