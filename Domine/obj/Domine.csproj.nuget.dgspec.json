@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {}
+    "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {}
   },
   "projects": {
-    "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
+    "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj",
         "projectName": "Domine",
-        "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj",
+        "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj",
         "packagesPath": "C:\\Users\\APT01-61\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\obj\\",
+        "outputPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-61\\AppData\\Roaming\\NuGet\\NuGet.Config"

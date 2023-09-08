@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\API.csproj": {}
+    "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\API.csproj": {
+    "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\API.csproj",
+        "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\API.csproj",
         "packagesPath": "C:\\Users\\APT01-61\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\obj\\",
+        "outputPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-61\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj"
+              "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj": {
+    "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\APT01-61\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\obj\\",
+        "outputPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-61\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -118,11 +118,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
-                "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj"
+              "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
+                "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj"
               },
-              "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj": {
-                "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj"
+              "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -162,14 +162,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
+    "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj",
         "projectName": "Domine",
-        "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj",
+        "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj",
         "packagesPath": "C:\\Users\\APT01-61\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\obj\\",
+        "outputPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-61\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -229,14 +229,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\APT01-61\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-61\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -251,8 +251,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
-                "projectPath": "c:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj"
+              "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj": {
+                "projectPath": "C:\\Users\\APT01-61\\Documents\\ProjectTokens\\Domine\\Domine.csproj"
               }
             }
           }

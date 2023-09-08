@@ -25,13 +25,6 @@ namespace API.Extensions
                 .AllowAnyMethod() //WithMethods("GET", "POST")
                 .AllowAnyHeader()); //WithHeader(*accept*, "content-type")
             });
-       public static void AddApplicationServices (this IServiceCollection services){
-            services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
-            services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<IAuthorizationHandler, GlobalVerRoleHandler>();
-        }
-
         public static void AddJwt(this IServiceCollection services, IConfiguration configuration){
             //appsettings
             services.Configure<JWT>(configuration.GetSection("Jwt"));
@@ -56,6 +49,15 @@ namespace API.Extensions
                     };
                 });
         }
+       public static void AddApplicationServices (this IServiceCollection services){
+            services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IAuthorizationHandler, GlobalVerRoleHandler>();
+        }
+
+        
     }
 
 }
