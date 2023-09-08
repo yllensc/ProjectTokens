@@ -123,8 +123,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
-                "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj"
+              "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
+                "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj"
               },
               "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\Persistence.csproj": {
                 "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\Persistence.csproj"
@@ -167,14 +167,14 @@
         }
       }
     },
-    "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
+    "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
+        "projectUniqueName": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
         "projectName": "Domine",
-        "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
+        "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\obj\\",
+        "outputPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -260,8 +260,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
-                "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj"
+              "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
+                "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj"
               }
             }
           }

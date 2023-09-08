@@ -10,6 +10,7 @@ using API.Helpers;
 using Domine.Entities;
 using Domine.Interfaces;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 namespace API.Services
@@ -20,9 +21,9 @@ namespace API.Services
         private readonly IUnitOfWork _unitOfWork;
         private readonly IPasswordHasher<User> _passwordHasher;
 
-        public UserService(IUnitOfWork unitOfWork, JWT jwt, IPasswordHasher<User> passwordHasher)
+        public UserService(IUnitOfWork unitOfWork,IOptions<JWT> jwt, IPasswordHasher<User> passwordHasher)
         {
-            _jwt = jwt;
+            _jwt = jwt.Value;
             _unitOfWork = unitOfWork;
             _passwordHasher = passwordHasher;
         }
@@ -57,7 +58,7 @@ namespace API.Services
 
         public async Task<DataUserDto> GetTokenAsync(LogDto userLog)
         {
-            DataUserDto dataUserDto= new DataUserDto();
+            DataUserDto dataUserDto = new DataUserDto();
             var user = await _unitOfWork.Users
                             .GetUserName(userLog.UserName);
             if(user == null){
@@ -104,8 +105,9 @@ namespace API.Services
                     new Claim("uid", user.Id.ToString())
             }
             .Union(roleClaims);
-            if(string.IsNullOrEmpty(_jwt.Key) || string.IsNullOrEmpty(_jwt.Issuer) || string.IsNullOrEmpty(_jwt.Audience)){
-                throw new ArgumentNullException("La configuración JWT tiene parámetros nulos o vacíos");
+            if (string.IsNullOrEmpty(_jwt.Key) || string.IsNullOrEmpty(_jwt.Issuer) || string.IsNullOrEmpty(_jwt.Audience))
+            {
+                throw new ArgumentNullException($"La configuración del JWT es nula o vacía. 1.{_jwt.Key} 2.{_jwt.Issuer} 3.{_jwt.Audience}");
             }
             else{
             var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwt.Key));

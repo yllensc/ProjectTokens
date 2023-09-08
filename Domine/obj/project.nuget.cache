@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d+07RwNaZzmO+j/jFJMvHhLvNus5eTnBdJEdWVXNYUQ4xUIR24ov4VP2bgrzya2XZOIM+xvSshrNPkjK18XIYQ==",
+  "dgSpecHash": "8Zmkt0UbHEJTMhu+E5gnUyOgNXqm6SNTnIw1O9NVhpVupwpWddla1RBIlEjGo5cFodalWq2XfHWCG3DJMqKaeA==",
   "success": true,
-  "projectFilePath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
+  "projectFilePath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",

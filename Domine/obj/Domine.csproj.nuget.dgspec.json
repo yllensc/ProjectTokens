@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {}
+    "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {}
   },
   "projects": {
-    "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
+    "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
+        "projectUniqueName": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
         "projectName": "Domine",
-        "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
+        "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\obj\\",
+        "outputPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

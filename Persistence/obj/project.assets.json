@@ -5147,11 +5147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\Persistence.csproj",
+      "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\obj\\",
+      "outputPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5168,8 +5168,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
-              "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj"
+            "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj": {
+              "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\ProjectTokens\\Domine\\Domine.csproj"
             }
           }
         }
