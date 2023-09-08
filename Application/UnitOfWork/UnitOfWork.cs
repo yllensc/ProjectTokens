@@ -15,7 +15,7 @@ namespace Application.UnitOfWork;
 
         public UnitOfWork(ProjectTokensDbContext _context)
         {
-            this.context = _context;
+            context = _context;
         }
 
         public IUser Users{
@@ -24,14 +24,12 @@ namespace Application.UnitOfWork;
                 return _users;
             }
         }
-        public IRol Rol{
-            get{
-                _roles ??= new RolRepository(this.context);
-                return _roles;
-            }
-        }
 
-    public IRol Roles => throw new NotImplementedException();
+    public IRol GetRoles()
+    {
+        _roles ??= new RolRepository(this.context);
+        return _roles;
+    }
 
     public void Dispose()
     {

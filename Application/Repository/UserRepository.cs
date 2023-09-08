@@ -13,10 +13,10 @@ namespace Application.Repository;
             _context = context;
         }
 
-    public async Task<User> GetUserName(string userName)
+    public async Task<User> GetUserName(string username)
     {
         return await _context.Users
-            .Include(u => u.UserName)
-            .FirstOrDefaultAsync(u => u.UserName.ToLower().Equals(userName.ToLower()));
+                            .Include(u=>u.Roles)
+                            .FirstOrDefaultAsync(u=>u.UserName.ToLower()==username.ToLower());
     }
 }

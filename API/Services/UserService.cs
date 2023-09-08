@@ -30,14 +30,14 @@ namespace API.Services
         public async Task<string> AddRoleAsync(AddRoleDto userToAdd)
         {
             var user = await _unitOfWork.Users
-                                        .GetUserName(userToAdd.UserName);
+                                    .GetUserName(userToAdd.UserName);
             if (user == null){
                 return $"No existe un usuario con la cuenta suministrada ¿Está seguro '{userToAdd.UserName}'";
             }
             var result = _passwordHasher.VerifyHashedPassword(user, user.Password, userToAdd.Password);
             if (result == PasswordVerificationResult.Success){
-                var existRol = _unitOfWork.Roles
-                                            .Find(r => r.RolName.ToLower().Equals(userToAdd.Rol.ToLower()))
+                var existRol = _unitOfWork.GetRoles()
+                                            .Find(r => r.RolName.ToLower() == userToAdd.Rol.ToLower())
                                             .FirstOrDefault();
             if (existRol != null){
                 var userWithRol = user.Roles
