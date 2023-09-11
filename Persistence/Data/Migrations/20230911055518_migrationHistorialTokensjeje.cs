@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -6,12 +7,31 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Persistence.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class migrationHistorialTokensjeje : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterDatabase()
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "Client",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IdentificationNumber = table.Column<int>(type: "int", maxLength: 150, nullable: false),
+                    Name = table.Column<string>(type: "varchar(150)", maxLength: 150, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Email = table.Column<string>(type: "varchar(150)", maxLength: 150, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    PhoneNumber = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Client", x => x.Id);
+                })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
@@ -49,6 +69,32 @@ namespace Persistence.Data.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
+                name: "HistorialRefreshToken",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IdUser = table.Column<int>(type: "int", nullable: true),
+                    Token = table.Column<string>(type: "varchar(500)", unicode: false, maxLength: 500, nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    RefreshToken = table.Column<string>(type: "varchar(200)", unicode: false, maxLength: 200, nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    DateCreated = table.Column<DateTime>(type: "datetime", nullable: true),
+                    DateExpired = table.Column<DateTime>(type: "datetime", nullable: true),
+                    IsActive = table.Column<ulong>(type: "BIT(1)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_HistorialRefreshToken", x => x.Id);
+                    table.ForeignKey(
+                        name: "FKHistorialUser",
+                        column: x => x.IdUser,
+                        principalTable: "User",
+                        principalColumn: "Id");
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
                 name: "UsersRoles",
                 columns: table => new
                 {
@@ -75,6 +121,17 @@ namespace Persistence.Data.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Client_IdentificationNumber",
+                table: "Client",
+                column: "IdentificationNumber",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_HistorialRefreshToken_IdUser",
+                table: "HistorialRefreshToken",
+                column: "IdUser");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Rol_RolName",
                 table: "Rol",
                 column: "RolName",
@@ -89,6 +146,12 @@ namespace Persistence.Data.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Client");
+
+            migrationBuilder.DropTable(
+                name: "HistorialRefreshToken");
+
             migrationBuilder.DropTable(
                 name: "UsersRoles");
 

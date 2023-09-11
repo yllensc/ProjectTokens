@@ -10,6 +10,7 @@ namespace Domine.Interfaces
         IUser Users { get; }
         IRol GetRoles();
         IClient Clients {get; }
+        IHistorialTokens HistorialTokens {get; }
         Task<int> SaveAsync();
     }
 }

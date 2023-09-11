@@ -24,6 +24,7 @@ namespace Application.Repository;
     {
         var idInt = Int32.Parse(id);
         return await _context.Users
+                            .Include(u=>u.Roles)
                             .FirstOrDefaultAsync(u=>u.Id==idInt);
     }
 

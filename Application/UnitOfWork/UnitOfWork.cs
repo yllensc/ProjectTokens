@@ -13,6 +13,7 @@ namespace Application.UnitOfWork;
         private RolRepository _roles;
         private UserRepository _users;
         private ClientRepository _clients;
+        private HistorialTokensRepository _historial;
 
         public UnitOfWork(ProjectTokensDbContext _context)
         {
@@ -33,6 +34,12 @@ namespace Application.UnitOfWork;
             }
         }
 
+    public IHistorialTokens HistorialTokens {
+            get{
+                _historial ??= new HistorialTokensRepository(this.context);
+                return _historial;
+            }
+        }
     public IRol GetRoles()
     {
         _roles ??= new RolRepository(this.context);
